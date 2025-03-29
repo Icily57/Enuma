@@ -1,0 +1,13 @@
+{
+    "name": "enuma",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "tsx watch src/index.ts",
+      "studio": "drizzle-kit studio",
+      "start": "node dist/index.js",
+      "build": "tsc",
+      "push": " drizzle-kit push"
+    }
+}
